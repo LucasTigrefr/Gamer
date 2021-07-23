@@ -105,16 +105,6 @@ body{
     font-weight:700;
 }
 
-.title1{
-    text-transform: uppercase;
-    font-weight: 600;
-    padding:10px;
-    border-width: 5px;
-    width:700px;
-    margin: auto;
-    font-size:2.6rem;
-}
-
 
 .btn-primary{
     box-shadow: none;
@@ -134,13 +124,14 @@ body{
     padding-top:50px ;
 }
 
-.title2{
+.title{
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
     padding:10px;
     width:700px;
     margin: auto;
-    font-size:2.6rem;
+    font-size:2.8rem;
+    border-bottom: 4px solid rgb(102, 3, 148);
 }
 
 .about-title{
@@ -156,4 +147,27 @@ body{
 
 #about-us ul{
     margin-left: 30px;
+}
+
+
+/***** Feedbacks */
+
+#testimonials{
+    margin: 100px 0;
+    
+}
+
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+
+.testimonials img{
+    height:60px; 
+    width: 60px;
+    border-radius: 50%;
+    marfgins
 }
