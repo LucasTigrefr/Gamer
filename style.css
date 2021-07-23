@@ -180,12 +180,13 @@ body{
 
 #testimonials{
     background-image: linear-gradient(to bottom, rgb(255, 255, 255),#f8f9fa);
+    
 }
 
 .testimonials{
     border-left: 4px solid #7b1798;
     margin: 50px;
-
+    max-width:70vw;
 }
 
 
@@ -197,9 +198,11 @@ body{
 }
 
 .user-details{
+    
     display: inline-block;
     font-size: 12px;
 }
+
 
 
                                             /*--- Social Media ----*/
